@@ -1,0 +1,26 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "start": "expo start",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~52.0.35",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.7",
+    "react-strict-dom": "^0.0.34",
+    "react-strict-dom-svg": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@types/react": "~18.3.18",
+    "typescript": "^5.7.3"
+  }
+}
